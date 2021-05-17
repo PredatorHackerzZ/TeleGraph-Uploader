@@ -83,7 +83,7 @@ async def about(client, message):
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
+                                            "🤖 Botlist", url="https://t.me/TGRobot_List"),
                                         InlineKeyboardButton(
                                             "Source Code", url="https://github.com/P-Phreak/TeleGraph-Uploader")
                                     ]]
